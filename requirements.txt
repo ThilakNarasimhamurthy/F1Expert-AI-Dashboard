@@ -1,7 +1,10 @@
 streamlit
-python-dotenv
-fastf1
 google-generativeai
+python-dotenv
 pandas
+fastf1
+matplotlib
 scikit-learn
-
+seaborn
+numpy
+Pillow
