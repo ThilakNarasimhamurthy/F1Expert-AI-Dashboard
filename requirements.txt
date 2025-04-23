@@ -3,4 +3,5 @@ python-dotenv
 fastf1
 google-generativeai
 pandas
-sklearn
+scikit-learn
+
