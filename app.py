@@ -13,7 +13,7 @@ import time
 import numpy as np
 from PIL import Image
 import base64
-from io import BytesIO+
+from io import BytesIO
 # --- Setup ---
 if not os.path.exists('cache'):
     os.makedirs('cache')
