@@ -311,7 +311,7 @@ def predict_all_positions(gp_name, upcoming_year=None):
             session = fastf1.get_session(year, gp_name, 'R')
             session.load()
             results = session.results[['Abbreviation', 'Position', 'TeamName']]
-            results['Year'] = year
+            results.loc[:, 'Year'] = year
             all_races.append(results)
         except:
             continue
